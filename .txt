@@ -1,4 +1,0 @@
-ADD TV SHOW
-Name
-Enter TV show name
-Add

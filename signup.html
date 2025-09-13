@@ -10,10 +10,13 @@
 </head>
 
 <body>
+
+
+
   <!-- Nav Start -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nov-sigup">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">ShowTracr</a>
+      <a class="navbar-brand bg-warning" href="index.html">ShowTracr</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
         aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -42,38 +45,56 @@
     </div>
   </nav>
   <!--End Nav  -->
-  <form>
-    <fieldset disabled>
-      <legend>Disabled fieldset example</legend>
-      <div class="mb-3">
-        <label for="disabledTextInput" class="form-label">Disabled input</label>
-        <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
-      </div>
-      <div class="mb-3">
-        <label for="disabledSelect" class="form-label">Disabled select menu</label>
-        <select id="disabledSelect" class="form-select">
-          <option>Disabled select</option>
-        </select>
-      </div>
-      <div class="mb-3">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
-          <label class="form-check-label" for="disabledFieldsetCheck">
-            Can’t check this
-          </label>
-        </div>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </fieldset>
-  </form>
+
   <!-- Main Content  -->
-  <form>
-    <div class="mb-3">
-      <label for="nameInput" class="form-label">Name</label>
-      <input type="text" class="form-control" id="nameInput" placeholder="Enter the name">
+
+  <style>
+    .card {
+      padding: 10px;
+    }
+  </style>
+
+
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <div class="container">
+        <h1>Sign up</h1>
+
+        <form action="" id="signup">
+          <div class="name-signup">
+            <input class="bi bi-person-fill " type="text" placeholder="Name" id="Name"
+            >
+
+            <div class="nameError"></div>
+          </div>
+
+          <div class="name-signup">
+            <input class="bi bi-key" type="gmail" placeholder="@Email">
+
+            <div class="error"></div>
+
+          </div>
+
+          <div class="name-signup">
+            <input class="bi bi-key" type="text" placeholder="Password">
+
+            <div class="error"></div>
+
+          </div>
+
+          <h6>By clicking on Sign up, you agree to <a href="/login.html">terms & conditions</a> and <a href="/login.html">privacy policy</a></h6>
+          <button class="btn btn-primary" type="submit" onclick="submit()">Sign up</button>
+          <p class="new-account">Already have an account?
+            <a href="/login.html">Log in now</a>
+          </p>
+          
+        </form>
+      </div>
+
     </div>
-    <button type="submit" class="btn btn-primary">Add</button>
-  </form>
+  </div>
+
+
 
 </body>
 
