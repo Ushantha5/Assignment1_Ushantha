@@ -11,7 +11,7 @@
     background-color: rgb(244, 247, 246);
     margin-top: 0px;
     align-items: baseline;
-   
+
 }
 
 #login {
@@ -44,7 +44,7 @@
     color: rgb(83, 85, 87);
     padding: 10px;
     border: 0px solid rgb(247, 246, 246);
-    
+
 
 }
 
@@ -66,7 +66,7 @@
 
 #Nav {
     background-color: rgb(255, 255, 255);
-    box-shadow: black 1px 1px 5px 5px;
+    box-shadow: rgb(112, 109, 109) 1px 1px 5px 5px;
     margin-bottom: 10px 10px 20px 30px;
 }
 
@@ -75,5 +75,44 @@
     padding: 5px 600px 40px 2px;
     padding-left: 180px ;
     background-color: hwb(160 85% 10%);
-  
+
+}
+
+#login-card {
+    margin: 20px 20px 20px;
+
+
+}
+
+.card {
+    margin-left: 50%;
+    margin-top: 120px;
+    background-color: red;
+    height: 300px;
+
+
+}
+
+.card-body {
+    display: grid;
+    gap: 15px;
+    text-align: center;
+    background-color: #FFFFFF;
+
+}
+
+#add-container {
+    background-color: rgb(248, 246, 246);
+    border: solid black 1px;
+    box-shadow: black 1px 2px 10px 1px ;
+    padding: 12px;
+
+}
+
+#add-new-show {
+    border: solid black 1px;
+    margin-bottom:15px;
+    padding: 0px;
+
+    
 }
